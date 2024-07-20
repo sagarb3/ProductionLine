@@ -1,0 +1,6 @@
+<div class="machine-line" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="16px">
+     <div *ngFor="let machine of machines" fxLayout="column" fxLayoutAlign="center center" style="position: relative;">
+        <app-machine-overview-card [name]="machine.name" [state]="machine.state" />
+        <div class="connector" *ngIf="machine !== machines[machines.length - 1]"></div>
+    </div>
+</div>

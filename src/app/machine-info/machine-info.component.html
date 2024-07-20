@@ -1,0 +1,10 @@
+<div *ngIf="machineInfo" fxLayout="column" fxLayoutAlign="center center">
+    <h2>{{ machineInfo.name }}</h2>
+    <p>{{ machineInfo.description }}</p>
+    <ul>
+        <li><strong>Manufacturer:</strong> {{ machineInfo.details.manufacturer }}</li>
+        <li><strong>Model:</strong> {{ machineInfo.details.model }}</li>
+        <li><strong>Last Maintenance:</strong> {{ machineInfo.details.lastMaintenance }}</li>
+        <li><strong>Location:</strong> {{ machineInfo.details.location }}</li>
+    </ul>
+</div>

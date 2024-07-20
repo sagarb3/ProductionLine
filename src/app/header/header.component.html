@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+    <div fxFlex fxLayout="row" fxLayoutAlign="start center">
+        <img [src]="logo" alt="Company Logo" class="logo" (click)="navigate()" style="cursor: pointer;">
+    </div>
+    <div fxFlex fxLayout="row" fxLayoutAlign="end center" fxLayoutGap="16px">
+        <div fxFlex="0 1 auto" fxLayoutAlign="center center"  fxLayout="row" fxLayoutGap="4px">
+            <span class="spacer"></span>
+            <mat-icon>access_time</mat-icon>
+            <span>{{ currentDate | date: 'dd.MM.yyyy HH:mm' }}</span>
+        </div>
+        <div fxFlex="0 1 auto" fxLayoutAlign="center center"  fxLayout="row" fxLayoutGap="4px">
+            <span class="spacer"></span>
+            <mat-icon>person</mat-icon>
+            <span>{{username}}</span>
+        </div>
+    </div>
+</mat-toolbar>

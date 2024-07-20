@@ -1,0 +1,47 @@
+[
+    {
+      "name": "Scale",
+      "state": "Running",
+      "description": "Detailed information about the Scale machine.",
+      "details": {
+        "manufacturer": "XYZ Corp",
+        "model": "Scale 2000",
+        "lastMaintenance": "2024-06-15",
+        "location": "Building A"
+      }
+    },
+    {
+      "name": "Attacher",
+      "state": "Alarm",
+      "description": "Detailed information about the Attacher machine.",
+      "details": {
+        "manufacturer": "ABC Inc",
+        "model": "Attacher 3000",
+        "lastMaintenance": "2024-07-01",
+        "location": "Building B"
+      }
+    },
+    {
+      "name": "Packer",
+      "state": "Running",
+      "description": "Detailed information about the Packer machine.",
+      "details": {
+        "manufacturer": "PackTech",
+        "model": "Packer 500",
+        "lastMaintenance": "2024-06-20",
+        "location": "Building C"
+      }
+    },
+    {
+      "name": "Closer",
+      "state": "Warning",
+      "description": "Detailed information about the Closer machine.",
+      "details": {
+        "manufacturer": "CloseIt",
+        "model": "Closer 900",
+        "lastMaintenance": "2024-06-25",
+        "location": "Building D"
+      }
+    }
+  ]
+  

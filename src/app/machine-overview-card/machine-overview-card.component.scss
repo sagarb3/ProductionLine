@@ -1,0 +1,23 @@
+.machine-overview-card {
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    height: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background-color: transparent;
+  }
+  .status-icon {
+    margin-bottom: 8px;
+  }
+  
+  .corner-icon {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+  }
+  

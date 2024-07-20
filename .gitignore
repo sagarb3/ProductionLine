@@ -1,0 +1,68 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# compiled output
+dist
+build
+
+# dependencies
+node_modules
+
+# temporary files and folders
+tmp
+temp
+
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+*.code-workspace
+
+# Angular
+.angular
+
+# npm
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+*~
+
+# Logs
+logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+._*
+.fseventsd
+
+# Compiled JavaScript files
+*.js
+*.js.map
+
+# Compiled TypeScript files
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*
